@@ -1,0 +1,678 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./fonts/OpenSans-ExtraBold.woff2') format('./fonts/woff2'),
+        url('./fonts/OpenSans-ExtraBold.woff') format('./fonts/woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./fonts/OpenSans-Bold.woff2') format('./fonts/woff2'),
+        url('./fonts/OpenSans-Bold.woff') format('./fonts/woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./fonts/OpenSans-Light.woff2') format('./fonts/woff2'),
+        url('./fonts/OpenSans-Light.woff') format('./fonts/woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./fonts/OpenSans-ExtraBoldItalic.woff2') format('./fonts/woff2'),
+        url('./fonts/OpenSans-ExtraBoldItalic.woff') format('./fonts/woff');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./fonts/OpenSans-Italic.woff2') format('./fonts/woff2'),
+        url('./fonts/OpenSans-Italic.woff') format('./fonts/woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./fonts/OpenSans-BoldItalic.woff2') format('./fonts/woff2'),
+        url('./fonts/OpenSans-BoldItalic.woff') format('./fonts/woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./fonts/OpenSans-LightItalic.woff2') format('./fonts/woff2'),
+        url('./fonts/OpenSans-LightItalic.woff') format('./fonts/woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./fonts/OpenSans-SemiBold.woff2') format('./fonts/woff2'),
+        url('./fonts/OpenSans-SemiBold.woff') format('./fonts/woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./fonts/OpenSans-Regular.woff2') format('./fonts/woff2'),
+        url('./fonts/OpenSans-Regular.woff') format('./fonts/woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./fonts/OpenSans-SemiBoldItalic.woff2') format('./fonts/woff2'),
+        url('./fonts/OpenSans-SemiBoldItalic.woff') format('./fonts/woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans';
+    background-color: #fff;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.container-fluid {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.visually-hidden {
+    position: absolute !important;
+    height: 1px; width: 1px; 
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+  }
+
+
+img {
+    max-width: 100%;
+    height:auto;
+}
+
+.nav{
+    background-color: #fff;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-main {
+    padding: 23px 0 18px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display:flex;
+    align-items: center;
+}
+
+.nav-item {
+    Font-family: 'Open Sans';
+    Font-style: Regular;
+    Font-size: 15px;
+    Line-height: 24px;
+    padding: 0 16px;
+}
+
+
+
+.nav-right-side{
+    display: flex;
+    align-items: center;
+}
+
+.nav-item-link {
+    font-family: 'Open Sans';
+    font-style: Regular;
+    font-size: 15px;
+    color: #000000;
+    Line-height: 24px;
+}
+
+.nav-phone {
+    background-color: #00BAFC;
+    border: 1px solid #00BAFC;
+    margin: 0 16px;
+    padding: 16px 8px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.header-bottom-main {
+    padding: 80px 0;
+}
+
+.nav-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.nav-left {
+    width: 50%;
+    padding: 100px 0;
+}
+
+.nav-right {
+    width: 50%;
+}
+
+.nav-left-title {
+    width: 80%;
+    Font-family: 'Open Sans';
+    font-style: Bold;
+    font-size: 30px;
+    Line-height: 39px;
+    color: black;
+    padding-bottom: 16px;
+}
+
+.left-info {
+    width: 70%;
+    Font-family: 'Open Sans';
+    Font-style: Regular;
+    font-size: 16px;
+    Line-height: 24px;
+    padding-bottom: 16px;
+    color: black;
+}
+
+.left-link {
+    width: 40%;
+    Font-family: 'Open Sans';
+    Font-style: bold;
+    font-size: 16px;
+    color: white;
+    Line-height: 24px;
+    margin-bottom: 10px;
+    background-color: #00BAFC;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+iframe {
+    border-radius: 15px;
+}
+
+.section1-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section1-title {
+    Font-family: 'Open Sans';
+    Font-style: bold;
+    font-size: 24px;
+    Line-height: 31px;
+    padding-bottom: 16px;
+    color: black;
+    padding-bottom: 16px;
+}
+
+.section1-info {
+    text-align: center;
+    width: 55%;
+    Font-family: 'Open Sans';
+    Font-style: Regular;
+    font-size: 16px;
+    Line-height: 24px;
+    padding-bottom: 16px;
+    color: black;
+    padding-bottom: 24px;
+}
+
+.section1-list {
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.section1-item {
+    width: 33%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+
+.section1-bottom {
+    padding-bottom: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1-button {
+    margin-right: 16px;
+    background-color: #00BAFC;
+    color: white;
+    Font-family: 'Open Sans';
+    Font-style: bold;
+    font-size: 16px;
+    Line-height: 24px;
+    padding: 8px 24px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.section1-bottom-link {
+    text-decoration: underline;
+    color: #00BAFC;
+    Font-family: 'Open Sans';
+    Font-style: Regular;
+    font-size: 16px;
+    Line-height: 24px;
+}
+
+.section2-title {
+    Font-family: 'Open Sans';
+    Font-style: bold;
+    font-size: 24px;
+    Line-height: 31px;
+    padding-bottom: 16px;
+    color: black;
+    padding-bottom: 16px;
+}
+
+.section2-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.section2-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.section2-left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section2-right {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section2-subtitle {
+    Font-family: 'Open Sans';
+    Font-style: bold;
+    font-size: 20px;
+    Line-height: 26px;
+    padding-bottom: 10px;
+    color: #000000;
+}
+
+.section2-subinfo {
+    Font-family: 'Open Sans';
+    Font-style: Regular;
+    font-size: 16px;
+    Line-height: 24px;
+    color: #000000;
+}
+
+.section3 {
+    background-color: #00BAFC;
+}
+
+.section3-main {
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section3-title {
+    Font-family: 'Open Sans';
+    Font-style: bold;
+    font-size: 24px;
+    Line-height: 31px;
+    padding-bottom: 16px;
+    color: white;
+    padding-bottom: 16px;
+}
+
+.section3-info {
+    width: 55%;
+    text-align: center;
+    Font-family: 'Open Sans';
+    Font-style: Regular;
+    font-size: 16px;
+    Line-height: 24px;
+    color: white;
+    padding-bottom: 24px;
+}
+
+.section3-form {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    border-radius: 5px;
+}
+
+.name-input{
+    margin-bottom: 16px;
+    padding: 16px;
+    color: black;
+}
+
+.number-input {
+    margin-bottom: 16px;
+    padding: 16px;
+    color: black;
+}
+
+.section3-label {
+    position: relative;
+}
+
+.service {
+    margin-bottom: 16px;
+    padding: 16px;
+    color: black;
+    user-select: auto;
+}
+
+
+.input-icon {
+    position: absolute;
+    right: 10%;
+    top: 30%;
+    transform: translate(-10%, -30%);
+}
+
+.section3-button {
+    background-color: #00BAFC;
+    color: white;
+    Font-family: 'Open Sans';
+    Font-style: bold;
+    font-size: 16px;
+    Line-height: 24px;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+
+.footer {
+    background-color: #191919;
+}
+
+.footer-main {
+    padding: 56px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-list{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+}
+
+.footer-item {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-title {
+    Font-family: 'Open Sans';
+    Font-style: bold;
+    font-size: 24px;
+    Line-height: 31px;
+    padding-bottom: 16px;
+    color: white;
+    padding-bottom: 16px;
+}
+
+.footer-info {
+    width: 75%;
+    Font-family: 'Open Sans';
+    Font-style: Regular;
+    font-size: 16px;
+    Line-height: 24px;
+}
+
+.footer-item-subitem {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.footer-item-subitem-link {
+    color: white;
+    Font-family: 'Open Sans';
+    Font-style: bold;
+    font-size: 16px;
+    Line-height: 24px;
+    display: flex;
+}
+
+.footer-icon {
+    padding-right: 5px;
+}
+
+@media (max-width:1160px){
+    .container {
+        width: 1000px;
+    }
+}
+
+@media (max-width:860px){
+    .container {
+        width: 700px;
+    }
+
+    .nav-wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-left {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-left-title {
+        text-align: center;
+    }
+
+    .nav-right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media (max-width:560px){
+    .container {
+        width: 400px;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .nav-right {
+        display: none;
+    }
+
+    .nav-left {
+        padding: 0;
+        margin: 0;
+    }
+
+    .section1-main {
+        width: 100%;
+    }
+
+    .section1-list {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section1-bottom {
+        flex-direction: column;
+    }
+
+    .section2-wrapper {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media (max-width:420px){
+    .container {
+        width: 90%;
+    }
+    .footer-list {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-info {
+        display: none;
+    }
+
+    .footer-item {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-item-list {
+        display: none;
+    }
+
+    .section2-title {
+        width: 100%;
+    }
+
+    .section3-form {
+        width: 100%;
+    }
+
+    .section3-info {
+        width: 100%;
+    }
+
+    .section1-button {
+        width: 100%;
+    }
+
+    .section2-subinfo {
+        width: 100%;
+    }
+
+    .section2-right {
+        width: 100%;
+    }
+
+    .section2-left {
+        width: 100%;
+    }
+
+    .section2-right {
+        width: 100%;
+    }
+
+    .section2-title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section1-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section1-title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section1-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section1-item {
+        width: 100%;
+        text-align: center;
+    }
+}
